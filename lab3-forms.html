@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+        <title>Coffee Order Form</title>
+    </head>
+    <body>
+
+<h1>Coffee Order Form</h1>
+
+<br><br>
+<form action="https://www.w3schools.com/action_page.php" method="get">
+<label for="name">Name</label>
+<input type="text" id="name" name="user_name">
+
+<br><br>
+
+
+<label for="email">Email</label>
+<input type="text" id="email" name="email">
+
+
+
+<section>
+    <h2>Coffee Type</h2>
+    <p>
+      <label for="type">
+        <span>Coffee type:</span>
+      </label>
+      <select id="type" name="coffee-type">
+        <option value="Latte">Latte</option>
+        <option value="Americano">Americano</option>
+        <option value="Espresso">Espresso</option>
+        <option value="Cappuccino">Cappuccino</option>
+      </select>
+    </p>
+</section>    
+
+<section>
+    <h2>Size of cup:</h2>
+    <fieldset>
+      <legend>Title</legend>
+      <ul>
+        <li>
+          <label for="title_1">
+            <input type="radio" id="title_1" name="size" value="Small" />
+            Small
+          </label>
+        </li>
+        <li>
+          <label for="title_2">
+            <input type="radio" id="title_2" name="size" value="Medium" />
+            Medium
+          </label>
+        </li>
+        <li>
+          <label for="title_3">
+            <input type="radio" id="title_3" name="size" value="Large" />
+            Large
+          </label>
+        </li>
+      </ul>
+    </fieldset>
+  </section>
+
+<h2>Extras:</h2>
+    <label><input type="checkbox" name="extras" value="Whipped Cream"> Whipped Cream</label><br>
+
+    <label><input type="checkbox" name="extras" value="Extra Shot"> Extra Shot</label><br>
+  
+    <label><input type="checkbox" name="extras" value="Almond Milk"> Almond Milk</label><br>
+
+
+<section>
+<br>
+
+<label for="comments">Additional Comments:</label>
+<br>
+<textarea id="comments" name="comments" rows="5" cols="60">
+This is a comments area :P
+</textarea>
+
+</section>
+
+<br><br>
+  <input type="submit" value="Submit">
+  
+
+</form>
+
+    </body>
+</html>
