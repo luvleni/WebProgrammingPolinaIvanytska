@@ -1,0 +1,31 @@
+head {font-family: Helvetica, sans-serif;}
+body {
+    background-color: lightblue;
+    font-family: Helvetica, sans-serif;
+  }
+h1 {
+    color: blueviolet;
+    text-align: center;
+  }
+p {
+    color: red;
+    padding: 10px;
+}
+li::marker {
+    color: olivedrab;
+  }
+  li {
+    color: orange;
+  }
+a {
+    color: blue;
+    text-decoration: none;
+}
+.styled-box { 
+    text-align: center;
+    background-color: lightgray;
+    padding: 15px;
+} 
+
+div
+{border-style: solid;}
